@@ -1,0 +1,5 @@
+from sample_app import models
+employee = models.Employee.objects.create(name='Kyaw Kyaw From Shell', address='Yangon')
+OR
+employee = models.Employee(name='Aung Aung From Shell', address='Yangon')
+employee.save(force_insert=True)

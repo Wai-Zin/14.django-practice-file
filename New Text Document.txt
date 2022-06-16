@@ -1,0 +1,39 @@
+C:\Users\USER\Desktop\Module 2\Python\14.django\0_install>.\django2-venv\Scripts\activate
+
+(django2-venv) C:\Users\USER\Desktop\Module 2\Python\14.django\0_install>cd ..
+
+(django2-venv) C:\Users\USER\Desktop\Module 2\Python\14.django>cd 1_start_project
+
+(django2-venv) C:\Users\USER\Desktop\Module 2\Python\14.django\1_start_project>python manage.py runserver
+C:\Users\USER\AppData\Local\Programs\Python\Python38\python.exe: can't open file 'manage.py': [Errno 2] No such file or directory
+
+(django2-venv) C:\Users\USER\Desktop\Module 2\Python\14.django\1_start_project>cd ..
+
+(django2-venv) C:\Users\USER\Desktop\Module 2\Python\14.django>cd 1_start_project
+
+(django2-venv) C:\Users\USER\Desktop\Module 2\Python\14.django\1_start_project>cd first_project
+
+(django2-venv) C:\Users\USER\Desktop\Module 2\Python\14.django\1_start_project\first_project> python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+May 15, 2022 - 11:13:36
+Django version 2.2, using settings 'first_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[15/May/2022 11:13:51] "GET / HTTP/1.1" 200 16348
+[15/May/2022 11:13:52] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[15/May/2022 11:13:52] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[15/May/2022 11:13:52] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[15/May/2022 11:13:52] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[15/May/2022 11:13:53] "GET /favicon.ico HTTP/1.1" 404 1979
+
+
+
+
+

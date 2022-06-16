@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load bootstrap4 %}
+{% block head_block %} {% endblock %}
+{% block body_block %}
+<div class="container">
+<h1> Edit contract </h1>
+<form method="POST" action="{% url 'contract_update' pk=contract.pk %}" enctype="multipart/formdata">
+{% csrf_token %}
+{% bootstrap_form form %}
+<div>
+<input type="submit" value="Update" class="btn-action btn btn-primary btn-large">
+<a href="javascript:history.back()" class="btn btn-dark"> Back </a>
+</div>
+</form>
+</div>
+{% endblock %}

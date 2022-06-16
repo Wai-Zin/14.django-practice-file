@@ -1,0 +1,4 @@
+models.Employee.objects.filter(name='Kyaw Kyaw').delete()
+OR
+employee = models.Employee.objects.all()
+employee.delete()

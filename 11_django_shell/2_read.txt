@@ -1,0 +1,14 @@
+from sample_app import models
+
+GET
+employee = models.Employee.objects.get(id=1)
+employee.name
+
+FILTER
+employee = models.Employee.objects.filter(name='Kyaw Kyaw')
+employee[0].name
+
+ALL
+models.Employee.objects.all()
+employee[0]
+employee[0].name

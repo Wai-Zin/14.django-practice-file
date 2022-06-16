@@ -1,0 +1,55 @@
+1.cd0_install
+
+2.python -m venv django2-venv
+
+3. .\django2-venv\Scripts\activate
+
+4.(django2-venv) python -m pip install django==2.2
+
+5.(django2-venv) cd 1_start_project
+
+6.(django2-venv)  python -m django startproject first_project
+
+7.(django2-venv) cd first_project
+
+8.(django2-venv) python manage.py runserver
+
+9.(django2-venv)  python -m pip install mysqlclient
+
+10.(django2-venv) python manage.py migrate
+
+11.models.py edit everytime
+
+python manage.py makemigrations <appname>
+python manage.py migrate <appname>
+
+python -m pip install Pillow
+
+HRMS  -> project
+-hr employees 
+-hr contracts
+-hr attendance
+-hr payroll
+-hr recuritment
+
+django 
+
+F B V => Function Based View
+C B V => Class Based View
+G C B V =>Generatic Class  Based View
+
+1 templates.html
+2 views.py
+3 urls.py
+
+check 
+
+import
+include
+extends
+http://127.0.0.1:8000/url_app/get_employee/1
+
+user
+user4321#
+https://www.heroku.com/
+hirokuwai23#

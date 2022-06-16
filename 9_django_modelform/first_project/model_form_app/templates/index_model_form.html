@@ -1,0 +1,12 @@
+<html>
+	<head>
+		<title> MODEL FORM </title>
+	</head>
+<body>
+	<form method="POST" action="/model_form_app/save_model_form/" enctype="multipart/form-data">
+	{% csrf_token %}
+	{{ form.as_p }}
+	<button type="submit"> Save </button>
+	</form>
+</body>
+</html>

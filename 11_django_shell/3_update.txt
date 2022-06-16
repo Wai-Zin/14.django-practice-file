@@ -1,0 +1,6 @@
+from sample_app import models
+models.Employee.objects.filter(id=1).update(name=' Aung Update From Shell')
+OR
+employee_obj = models.Employee.objects.get(id=1)
+employee_obj.name = 'AUNG Update From Shell'
+employee_obj.save()
